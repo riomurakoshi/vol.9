@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    transform: 0.3s;
+}
+a:hover{
+    opacity: 0.2;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.page-header,
+.page-hero,
+.page-content,
+.page-footer {
+    min-width: 1280;
+    width: 100%;
+}
+.page-header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+}
+.page-header__inner,
+.page-content__inner{
+    box-sizing: content-box;
+}
+.page-header{
+    border-top: solid 4px #7f9916;
+}
+.page-header__inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header .logo,
+.page-header .logo{
+    width: 256px;
+}
+.sns-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sns-list__item{
+    width: 24px;
+}
+.sns-list__item:not(:first-child){
+    margin-left: 16px;
+}
+.page-header__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.gloval-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.gloval-nav > .sns-list{
+    margin-left: 64px;
+}
+.gloval-nav > .link-button{
+    margin-left: 64px;
+}
+.link-button{
+    display: table;
+    width: 140px;
+}
+.menu-list{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.h2-tittle{
+    text-align: center;
+    border-bottom: 2px solid #7f9916;
+    max-width: 174px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.sekou{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 40px auto;
+}
+
+.sekou-list{
+    max-width: 520px;
+    padding: 24px;
+}
+
+.tuyomi{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 954px;
+    justify-content: space-between;
+    margin: 24px auto 32px auto;
+    padding: 0px;
+}
+
+.tuyomi-list{
+    max-width: 286px;
+    justify-content: flex-end;
+}
+
+.tuyomi-h3{
+    font-size: 24px;
+    margin: 32px 0 12px 0;
+}
+
+.hiyou{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    padding: 0px;
+}
+
+.hiyou-list{
+    max-width: 347px;
+    padding: 24px;
+}
+
+.okyakusama{
+    justify-content: center;
+    max-width: 680px;
+    margin: 0px auto 0px auto;
+}
+
+.okyakusama-list{
+    display: flex;
+    border: 2px solid #7f9916;
+    border-radius: 8px;
+    margin: 16px;
+    
+}
+.okyakusama-list img{
+    max-width: 94px;
+    max-height: 90px;
+    display: flex;
+}
+
+.mitumori{
+    max-width: 1080px;
+    max-height: 228px;
+    margin: 44px;
+}
+
+.saiyou{
+    max-width: 1080px;
+    max-height: 176px;
+    margin: 44px;
+}
+
+.kaisya-gaiyou{
+    display: flex;
+    justify-content: center;
+}
+
+.kaisya{
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.company-map{
+    width: 100%;
+}
+
+.logo{
+    max-width: 295px;
+}
+
+.aikon{
+    max-width: 45px;
+    max-height: 45px;
+    display: flex;
+}
